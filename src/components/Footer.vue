@@ -23,8 +23,8 @@
                     <h5>KONTAK</h5>
                     <hr>
                     <p>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral Sudirman No.83, Daerah Khusus Ibukota Jakarta, Indonesia
-                        <i class="fas fa-phone"></i> +62857-8585-2224
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Raya Salopa No. 160, Kawitan, Kec. Salopa, Kab. Tasikmalaya Prov. Jawa Barat
+                        <i class="fas fa-phone"></i> +000-000-0000
                     </p>
                 </div>
             </div>
