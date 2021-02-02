@@ -5,7 +5,7 @@
             <div v-if="sliders.length > 0">
                 <div class="carousel-item" v-for="(slider, id) in sliders" :class="{ active: id==0 }" :key='slider.id'>
                     <img :src="slider.image" class="w-100"
-                        style="height:400px;object-fit:cover">
+                        style="height:400px;object-fit:contain">
                 </div>
             </div>
             <div v-else class="mt-5">
