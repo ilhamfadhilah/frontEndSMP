@@ -29,7 +29,7 @@
                                     <div class="card-body">
                                         <router-link :to="{name: 'detail_post', params: {slug: post.slug}}"
                                             class="text-dark text-decoration-none">
-                                            <h6>{{ post.title }}</h6>
+                                            <h6><strong>{{ post.title }}</strong></h6>
                                         </router-link>
                                     </div>
                                     <div class="card-footer bg-white">
@@ -271,6 +271,11 @@
             //get videos
             axios.get('/api/homepage/video').then(response => {
                 this.videos = response.data.data
+            })
+
+             //get worker
+            axios.get('/api/homepage/worker').then(response => {
+                this.workers = response.data.data
             })
         }
     }

@@ -23,6 +23,9 @@
                     <li class="nav-item">
                         <router-link :to="{name: 'contact'}" class="nav-link"><i class="fa fa-phone" aria-hidden="true"></i> KONTAK</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link :to="{name: 'worker'}" class="nav-link"><i class="fa fa-user-cog" aria-hidden="true"></i> PEGAWAI</router-link>
+                    </li>
                 </ul>
             </div>
         </div>

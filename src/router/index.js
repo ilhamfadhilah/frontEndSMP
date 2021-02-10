@@ -72,6 +72,13 @@ const router = new VueRouter({
             component: () =>
                 import( /* webpackChunkName: "PostShow" */ "@/views/post/Show")
         },
+        {
+            path: '/worker',
+            name: 'worker',
+            component: () =>
+                import( /* webpackChunkName: "WorkerIndex" */ "@/views/worker/Index")
+        },
+        
     ],
     mode: 'history'
 })
