@@ -7,8 +7,8 @@
         <!-- main content -->
         <header class="pt-5 border-bottom bg-light">
             <div class="container pt-md-1 pb-md-1">
-                <h1 class="bd-title mt-4 font-weight-bold"><i class="fa fa-image" aria-hidden="true"></i> GALERI</h1>
-                <p class="bd-lead">Galeri Guru terbaru tentang SMPN 1 Salopa.</p>
+                <h1 class="bd-title mt-4 font-weight-bold"><i class="fa fa-user-cog" aria-hidden="true"></i> Pegawai SMPN 1 Salopa</h1>
+                <p class="bd-lead">Data Pegawai dan Guru di SMPN 1 Salopa.</p>
             </div>
         </header>
 
@@ -16,7 +16,7 @@
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><router-link :to="{ name: 'home' }" class="text-decoration-none"><i class="fa fa-home"></i> Home</router-link></li>
-            <li class="breadcrumb-item"><router-link :to="{ name: 'worker' }" class="text-decoration-none"><i class="fa fa-image"></i> Galeri Guru</router-link></li>
+            <li class="breadcrumb-item"><router-link :to="{ name: 'worker' }" class="text-decoration-none"><i class="fa fa-image"></i> Galeri Pegawai</router-link></li>
         </ol>
         </nav>
         <!-- end breadcrumb -->

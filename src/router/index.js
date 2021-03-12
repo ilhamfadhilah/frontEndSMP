@@ -78,7 +78,26 @@ const router = new VueRouter({
             component: () =>
                 import( /* webpackChunkName: "WorkerIndex" */ "@/views/worker/Index")
         },
-        
+        {
+            path: '/osis',
+            name: 'osis',
+            component: () =>
+                import( /* webpackChunkName: "OsisIndex" */ "@/views/osis/Index")
+        },
+            
+        {
+            path: '/extrakulikuler',
+            name: 'extrakulikuler',
+            component: () =>
+                import( /* webpackChunkName: "ExtrakulikulerIndex" */ "@/views/extrakulikuler/Index")
+        },
+        {
+            path: '/ppdb',
+            name: 'ppdb',
+            component: () =>
+                import( /* webpackChunkName: "PPDBIndex" */ "@/views/ppdb/Index")
+        },
+      
     ],
     mode: 'history'
 })

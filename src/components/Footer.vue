@@ -6,7 +6,7 @@
                     <h5>TENTANG</h5>
                     <hr>
                     <p>
-                        Sekolah Menengah Pertama adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan pada jenjang pendidikan menengah sebagai lanjutan dari SD/MI.
+                        SMPN 1 Salopa adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan pada jenjang pendidikan menengah sebagai lanjutan dari SD/MI.
                     </p>
                 </div>
                 <div class="col-md-4">
