@@ -28,14 +28,59 @@
 
                         <div class="jumbotron jumbotron-billboard">
                             <div class="img"></div>
-                            <div class="container text-dark text-center ">
-                                <h3 class="display-4 text-dark font-weight-bold">PPDB di SMPN 1 Salopa</h3>
-                                <h5 class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos, dignissimos esse enim est optio commodi quibusdam vero perferendis sapiente distinctio quisquam delectus pariatur tempore et quasi voluptatem, earum explicabo.
-                                </h5>
+                            <div class="container text-dark text-left ">
+                              
+                               <div class="row text-center">
+                                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h1><strong>Selamat Datang Di Website PPDB Online</strong></h1>
+                                    <h4>SMPN 1 Salopa Tahun Ajaran 2021/2022</h4>
+                                <a href="https://forms.gle/HGYrry2bycSBo5rP8" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Daftar Sekarang</a>
+                                    <!-- <div class="btn btn-primary">
+                                        <router-link :to="{ name: 'daftar' }" class="text-decoration-none text-white"><i class="fa fa-paper-plane"></i> Daftar Sekarang</router-link>
+                                    </div> -->
+                    
+                                  
+
+                                </div>
+                                </div>
+                                <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                                <img src="assets/img/daftar.png" class="img-fluid" alt="">
+                                </div>
+
+                            </div> 
+                            
+                                <br>
+                                <br>
+                             <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="assets/img/brosur smpn 1 salopa v1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-6 d-flex flex-column justify-contents-center">
+                                    <div class="content pt-4 pt-lg-0">
+                                    <h3>Pendaftaran Online</h3>
+                                    <p class="font-italic">
+                                        Ditengah merebaknya pandemi virus Covid-19 di Indonesia akhir-akhir ini. Untuk memudahkan calon peserta didik baru dalam melakukan pendaftaran, maka kami meyediakan pelayanan pendaftaran peserta didik baru mode online atau daring dengan alur pendaftaran sebagai berikut :
+                                    </p>
+                                    <ul>
+                                        <lo><i class="icofont-check-circled "></i> Mengisi formulir pendaftaran online</lo><br>
+                                        <lo><i class="icofont-check-circled"></i> Setelah melakukan pengisian formulir online dan kirim data, Screenshot halaman konfirmasi sebagai bukti pendaftaran</lo><br>
+                                        <lo><i class="icofont-check-circled"></i> Menerima pengumuman</lo><br>
+                                        <lo><i class="icofont-check-circled"></i> Melakukan daftar ulang</lo><br>
+                                        <lo><i class="icofont-check-circled"></i> Masuk kegiatan belajar mengajar</lo><br>
+                                    </ul>
+                                    <p>
+                                        Selain pendaftaran mode online atau daring, kami juga masih melayani pendaftaran offline/luring dengan datang langsung ke sekretariat pendaftaran (Ruang Tata Usaha SMPN 1 Salopa).
+                                    </p>
+                                    </div>
+                                </div>
+                                </div>
+    
+
                                 </div>
                         </div>       
 
-                        <div class="row bg-white text-dark">
+                        <!-- <div class="row bg-white text-dark">
 
                             <div class="col-sm-6">
                               <div class="card bg-white">
@@ -77,7 +122,11 @@
                                 </div>
                               </div>
                             </div>
-                        </div>
+                        </div> -->
+                             
+            
+
+                    
                         </div>
                     
             

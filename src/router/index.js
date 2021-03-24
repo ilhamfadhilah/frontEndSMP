@@ -97,6 +97,19 @@ const router = new VueRouter({
             component: () =>
                 import( /* webpackChunkName: "PPDBIndex" */ "@/views/ppdb/Index")
         },
+        {
+            path: '/view',
+            name: 'view',
+            component: () =>
+                import( /* webpackChunkName: "ViewIndex" */ "@/views/view/Index")
+        },
+        {
+            path: '/daftar',
+            name: 'daftar',
+            component: () =>
+                import( /* webpackChunkName: "DaftarIndex" */ "@/views/daftar/Index")
+        },
+      
       
     ],
     mode: 'history'
