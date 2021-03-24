@@ -32,20 +32,18 @@
                               
                                <div class="row text-center">
                                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                                <div>
+                                
                                     <h1><strong>Selamat Datang Di Website PPDB Online</strong></h1>
                                     <h4>SMPN 1 Salopa Tahun Ajaran 2021/2022</h4>
-                                <a href="https://forms.gle/HGYrry2bycSBo5rP8" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Daftar Sekarang</a>
                                     <!-- <div class="btn btn-primary">
                                         <router-link :to="{ name: 'daftar' }" class="text-decoration-none text-white"><i class="fa fa-paper-plane"></i> Daftar Sekarang</router-link>
                                     </div> -->
-                    
-                                  
+                     <a href="https://forms.gle/HGYrry2bycSBo5rP8" type="button" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Daftar Sekarang</a>
 
                                 </div>
-                                </div>
+                                
                                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
-                                <img src="assets/img/daftar.png" class="img-fluid" alt="">
+                                <img src="assets/img/daftar.png" class="img-fluid animate__animated animate__fadeInRight animate__slow" alt="">
                                 </div>
 
                             </div> 
@@ -53,10 +51,10 @@
                                 <br>
                                 <br>
                              <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 animate__animated animate__fadeInLeft animate__slow animate__delay-1s">
                                     <img src="assets/img/brosur smpn 1 salopa v1.jpg" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-lg-6 d-flex flex-column justify-contents-center">
+                                <div class="col-lg-6 d-flex flex-column justify-contents-center animate__animated animate__fadeInRight animate__slow animate__delay-s">
                                     <div class="content pt-4 pt-lg-0">
                                     <h3>Pendaftaran Online</h3>
                                     <p class="font-italic">
