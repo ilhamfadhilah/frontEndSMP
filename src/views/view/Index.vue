@@ -29,8 +29,6 @@
                             <h3>Daftar Calon Peserta Didik SMPN 1 Salopa Tahun Ajaran 2021/2022</h3>
                         </div>
                         <div class="card-body">
-
-
                                             <div class="input-group mb-3">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"><strong>  <i class="fa fa-search"></i> Pencarian</strong></span>
@@ -50,8 +48,6 @@
                                                         </thead>
                                                         <tbody>
                                                                 <tr  v-for="ppdb in ppdbs" :key="ppdb.Nama_Lengkap">
-                                                                <!-- <td>{{ ppdb }}</td>                                       -->
-                                                                <!-- <td>{{  }}</td>                                       -->
                                                                 <td></td>                                      
                                                                 <td>
                                                                     {{ ppdb.Nama_Lengkap }}

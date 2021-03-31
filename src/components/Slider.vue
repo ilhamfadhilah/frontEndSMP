@@ -3,8 +3,8 @@
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div v-if="sliders.length > 0">
-                <div class="carousel-item" v-for="(slider, id) in sliders" :class="{ active: id==0 }" :key='slider.id'>
-                    <img :src="slider.image" class="w-100"
+                <div class="carousel-item active" v-for="(slider, id) in sliders" :class="{ active: id==0 }" :key='slider.id'>
+                    <img :src="slider.image" class="d-block w-100"
                         style="height:400px;object-fit:contain">
                 </div>
             </div>
@@ -25,6 +25,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
     <!-- end slider section -->
 </template>
 

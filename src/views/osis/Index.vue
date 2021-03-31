@@ -26,7 +26,7 @@
             <div class="row ">
                 <div class="card">
                     <div class="card-body text-center animate__animated animate__fadeInLeft animate__slow ">
-                        <img src="https://2.bp.blogspot.com/-N_o93X-iYpI/W-qY1V2RppI/AAAAAAAALCI/ZJDGDYRTsU0R0LKSPh6658vt9tmw10_ogCLcBGAs/s640/Struktur%2BOrganisasi%2BOSIS.png" class="img-fluid" alt="Responsive image" >
+                        <img src="assets/img/repair.JPG" class="img-fluid" alt="Responsive image" >
                     </div>
                 </div>
             </div>

@@ -84,6 +84,12 @@ const router = new VueRouter({
             component: () =>
                 import( /* webpackChunkName: "OsisIndex" */ "@/views/osis/Index")
         },
+        {
+            path: '/alumni',
+            name: 'alumni',
+            component: () =>
+                import( /* webpackChunkName: "AlumniIndex" */ "@/views/alumni/Index")
+        },
             
         {
             path: '/extrakulikuler',

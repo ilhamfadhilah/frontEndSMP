@@ -10,9 +10,12 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "datatables.net": "^1.10.24",
+    "datatables.net-dt": "^1.10.24",
     "vue": "^2.6.11",
     "vue-content-loader": "^0.2.3",
-    "vue-router": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vuejs-datatable": "^2.0.0-alpha.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

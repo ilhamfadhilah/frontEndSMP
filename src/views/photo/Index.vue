@@ -21,13 +21,13 @@
         </nav>
         <!-- end breadcrumb -->
 
-        <div class="container-fluid mt-5 mb-5">
+        <div class="container-fluid mt-5 mb-5 ">
 
             <div class="row">
 
                 <div v-if="photos.length > 0" class="row">
                     <div class="col-md-4 mb-4" v-for="photo in photos" :key="photo.id">
-                        <div class="card h-100 shadow-sm border-0 rounded-lg">
+                        <div class="card h-100 shadow-sm border-0 rounded-lg animate__animated animate__fadeInUp animate__slow">
                             <div class="card-img">
                                 <img :src="photo.image" class="w-100"
                                     style="height: 300px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;">

@@ -4,6 +4,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+/* .dropdown-menu{
+  font-family: 'Quicksand';
+} */
+
 
 
 .bg-dark{
@@ -49,6 +53,12 @@ body{
     float:left;
   }
 
+  #misi {
+     
+    text-align: justify;
+      text-justify: inter-word;
+    
+  }
 
 /* ---- ------------------------------------------------------------------- */
 

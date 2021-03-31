@@ -27,7 +27,7 @@
 
                 <div v-if="videos.length > 0" class="row">
                     <div class="col-md-6 mb-4" v-for="video in videos" :key="video.id">
-                        <div class="card h-100 shadow-sm border-0 rounded-lg">
+                        <div class="card h-100 shadow-sm border-0 rounded-lg animate__animated animate__fadeInUp animate__slow">
                             <div class="card-img">
                                 <iframe
                                     style="width:100%;height:300px;border-top-left-radius:.3rem;border-top-right-radius:.3rem"
