@@ -47,6 +47,12 @@
                                                <hr>
                      </div>      
 
+                                        <div class="col-md-12 bg-info text-dark">
+                                            <br>
+                                            <h3 class="text-center"><strong>Ayo cari teman mu...&#128515;</strong></h3>
+                                            <br>
+                                        </div>
+                                        <br>
                                          <div class="col-md-12">
                                                 <div class="input-group mb-3">
                                                 <div class="input-group-prepend">

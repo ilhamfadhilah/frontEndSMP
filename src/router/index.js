@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 //import axios
 import axios from 'axios'
 //default base URL / EndPoint API
-axios.defaults.baseURL = "http://localhost:8000"
+axios.defaults.baseURL = "https://smpn1salopa.sch.id"
 
 const router = new VueRouter({
     routes: [{
