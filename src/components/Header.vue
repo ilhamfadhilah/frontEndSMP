@@ -14,7 +14,7 @@
                                 <i class="fa fa-user"></i> KESISWAAN
                     </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item " aria-hidden="true"  href=" http://127.0.0.1:8000" > <i class="fa fa-user-cog text-dark"></i> Direktori Siswa</a>
+                            <a class="dropdown-item " aria-hidden="true"  href="https://www.smpn1salopa.sch.id/" > <i class="fa fa-user-cog text-dark"></i> Direktori Siswa</a>
                             <router-link :to="{name: 'osis'}" class="nav-link text-dark"><i class="fa fa-user-tie text-dark" aria-hidden="true"></i> OSIS</router-link>
                             <router-link :to="{name: 'extrakulikuler'}" class="nav-link text-dark"><i class="fa fa-user-tie text-dark" aria-hidden="true"></i> Extrakulikuler</router-link>
                             
