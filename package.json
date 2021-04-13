@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@wyhaya/vue-slide": "^1.0.2",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "datatables.net": "^1.10.24",

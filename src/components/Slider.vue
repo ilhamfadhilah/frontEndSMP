@@ -1,11 +1,11 @@
 <template>
     <!-- slider section -->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div v-if="sliders.length > 0">
-                <div class="carousel-item active" v-for="(slider, id) in sliders" :class="{ active: id==0 }" :key='slider.id'>
-                    <img :src="slider.image" class="d-block w-100"
-                        style="height:400px;object-fit:contain">
+                <div class="carousel-item" v-for="(slider, id) in sliders" :class="{ active: id==0 }" :key='slider.id'>
+                    <img :src="slider.image" class="w-100"
+                        style="height:400px;object-fit:cover">
                 </div>
             </div>
             <div v-else class="mt-5">
@@ -16,16 +16,15 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
-
     <!-- end slider section -->
 </template>
 
